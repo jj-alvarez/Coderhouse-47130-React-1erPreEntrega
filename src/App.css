@@ -23,7 +23,7 @@ gris oscuro rgba(34,36,37,255);
 /* --------MAIN-------------------------------------------------------------------------------------------- */
 
 
-.logo-react {
+.main-logo {
     height: 10em;
     padding: 1.5em;
     display: flex;
@@ -57,7 +57,7 @@ gris oscuro rgba(34,36,37,255);
     border: 1px solid transparent;
     background-color: rgba(254,189,46,255);
     padding: 0.5em;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 900;
     display: flex;
 }

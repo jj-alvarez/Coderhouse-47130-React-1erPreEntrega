@@ -1,0 +1,23 @@
+/* colores */
+/*
+
+rojo semaforo rgba(255,96,87,255);
+verde semaforo rgba(98,186,71,255);
+amarillo semaforo rgba(254,189,46,255);
+
+azul menu rgba(2,122,255,255);
+
+blanco letra rgba(235,235,235,255);
+gris intermedio rgba(90,92,92,255);
+gris semioscuro rgba(55,57,57,255);
+gris oscuro rgba(34,36,37,255);
+
+*/
+
+.carrito-icon{
+    color:rgba(2,122,255,255);
+    font-size: 2.2em;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
