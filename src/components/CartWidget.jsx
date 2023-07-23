@@ -1,11 +1,15 @@
-import "./CartWidget.css";
+import { FaShoppingCart } from "react-icons/fa";
+import "./CartWidget.css"
 
 const CartWidget = () => {
-    return(
-        <div>
-            <p className="carrito-icon">X</p>
-        </div>
-    )
-}
+  return (
+    <>
+        <div className="carrito-icon">
+            <FaShoppingCart size={32} color="#61DBFB" />
+            <p className="cart-numero">0</p>
+        </div >
+    </>
+  );
+};
 
 export default CartWidget;

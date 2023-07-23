@@ -6,6 +6,7 @@ verde semaforo rgba(98,186,71,255);
 amarillo semaforo rgba(254,189,46,255);
 
 azul menu rgba(2,122,255,255);
+celeste react #61DBFB;
 
 blanco letra rgba(235,235,235,255);
 gris intermedio rgba(90,92,92,255);
@@ -15,9 +16,15 @@ gris oscuro rgba(34,36,37,255);
 */
 
 .carrito-icon{
-    color:rgba(2,122,255,255);
+    color:#61DBFB;
     font-size: 2.2em;
-    
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+
+.cart-numero{
+    color: rgba(254,189,46,255);
+    font-size: 0.5em;
+    padding-left: 0.2em;
 }
