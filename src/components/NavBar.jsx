@@ -4,9 +4,10 @@ const Navbar = () => {
     return (
         <div className="navbar-links">
             <a href="">Home</a>
-            <a href="">Store</a>
-            <a href="">Nosotros</a>
-            <a href="">Contacto</a>
+            <a href="">Historia</a>
+            <a href="">Diseño</a>
+            <a href="">Musica</a>
+            <a href="">Programacion</a>
         </div>
     )
 }

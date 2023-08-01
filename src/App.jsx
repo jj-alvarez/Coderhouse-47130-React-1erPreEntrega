@@ -6,6 +6,11 @@ import './App.css'
 import Navbar from './components/NavBar'
 import Mainlogo from './components/MainLogo'
 import CartWidget from './components/CartWidget'
+import Footer from "./components/Footer"
+// import MainSection from './components/MainSection'
+
+
+
 
 
 
@@ -28,9 +33,7 @@ function App() {
             </div>
 
             <div className='footer-area'>
-                <p className="read-the-docs">
-                    La Biblioteca Escondida | Copyright 2023 | Todos los derechos reservados.
-                </p>
+                <Footer />
             </div>
         </div>
     </>
