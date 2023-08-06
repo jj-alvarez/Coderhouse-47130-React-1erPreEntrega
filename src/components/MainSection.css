@@ -40,6 +40,7 @@ gris oscuro rgba(34,36,37,255);
     font-weight: bolder;
     display: flex;
     color: rgba(254,189,46,255);
+    padding: 0.2em;
 }
 
 .proximamente{
@@ -50,6 +51,17 @@ gris oscuro rgba(34,36,37,255);
     display: flex;
 }
 
+.btn-ingresar {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: rgba(254,189,46,255);
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: 900;
+    display: flex;
+    padding: 0.2em;
+}
+
 .btn-newsletter {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -58,4 +70,5 @@ gris oscuro rgba(34,36,37,255);
     font-size: 1.2em;
     font-weight: 900;
     display: flex;
+    padding: 0.2em;
 }

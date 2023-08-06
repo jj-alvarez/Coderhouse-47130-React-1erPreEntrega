@@ -12,7 +12,8 @@ El sitio corresponde a un e-commerce de venta de libros de distintos generos y a
 
 ## Pre entrega 02 - 13/agosto/2023
 
-- Se continuo desarrollando la imagen del sitio
+- Se continuo desarrollando la imagen del sitio.
+- Se agrego un nuevo logotipo acorde a la tematica del sitio.
 - Se crearon nuevos componentes segun las consignas.
 
 
