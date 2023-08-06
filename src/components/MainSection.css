@@ -24,13 +24,15 @@ gris oscuro rgba(34,36,37,255);
     display: flex;
 }
 
+/*
 .landing-area {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*     padding: 2em; */
+    
 }
+*/
 
 .main-area h1 {
     font-size: 3em;

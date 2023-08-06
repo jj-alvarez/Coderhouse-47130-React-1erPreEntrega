@@ -23,7 +23,7 @@ gris oscuro rgba(34,36,37,255);
 
 /* --------MAIN-------------------------------------------------------------------------------------------- */
 
-/*
+
 .main-logo {
     height: 10em;
     padding: 1.5em;
@@ -35,7 +35,7 @@ gris oscuro rgba(34,36,37,255);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*     padding: 2em; 
+    /*     padding: 2em; */
 }
 
 .main-area h1 {
@@ -63,7 +63,7 @@ gris oscuro rgba(34,36,37,255);
     font-weight: 900;
     display: flex;
 }
-*/
+
 /* --------FOOTER------------------------------------------------------------------------------------------ */
 /*
 .footer-area p{
