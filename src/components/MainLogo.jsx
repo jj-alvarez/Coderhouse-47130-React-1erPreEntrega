@@ -1,11 +1,9 @@
-import reactLogo from '../assets/react.svg'
-
 import "./MainLogo.css";
 
 const Mainlogo = () => {
     return (
         <div>
-            <img src={reactLogo} className="logo-react" alt="React logo" />
+            <img src="./src/assets/img/main-logo-002.png" className="logo-lbe-mini" alt="La Biblioteca Escondida" />
         </div>
     )
 }

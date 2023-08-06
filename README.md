@@ -1,8 +1,23 @@
-# React + Vite
+# LA BIBLIOTECA ESCONDIDA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hola! A continuacion detallo el e-commerce realizado durante el curso de **ReactJS** dictado en la Comision 47130 de **CODERHOUSE**. 
 
-Currently, two official plugins are available:
+El objetivo era realizar una app de un e-commerce con ReactJS. En este caso, opte con realizar  es
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# La Biblioteca Escondida
+
+El sitio corresponde a un e-commerce de venta de libros de distintos generos y autores.
+
+
+## Pre entrega 02 - 13/agosto/2023
+
+- Se continuo desarrollando la imagen del sitio
+- Se crearon nuevos componentes segun las consignas.
+
+
+## Pre entrega 01 - 23/julio/2023
+
+- Se armo un sitio basico compuesto por un header, un main y un footer. 
+- Se definio una paleta de colores basicos.
+- Se agregaron **componentes** basicos de React en cada uno de las secciones con sus correspondientes archivos *.jsx y *.css. 
