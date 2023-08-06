@@ -15,35 +15,31 @@ gris oscuro rgba(34,36,37,255);
 
 */
 
-
-.main-logo {
-    height: 15em;
-    padding: 1.5em;
+.itemListContainer {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.main-area h1 {
-    font-size: 3em;
-    line-height: 1.1;
-    font-weight: bolder;
-    display: flex;
+.itemListContainer h2{
     color: rgba(254,189,46,255);
+    font-size: 2.5em;
 }
 
-.proximamente{
-    color: black;
-    font-size: 1.2em;
-    padding: 0.5em;
-    margin: 2em;
-    display: flex;
+.itemListContainer p {
+    color: rgba(235,235,235,255);
+    font-size: 1.5em;
 }
 
-.btn-newsletter {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    background-color: rgba(254,189,46,255);
-    padding: 0.5em;
-    font-size: 1.2em;
-    font-weight: 900;
+.itemMainArea{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+
 }

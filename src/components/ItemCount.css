@@ -1,0 +1,62 @@
+/* colores */
+/*
+
+rojo semaforo rgba(255,96,87,255);
+verde semaforo rgba(98,186,71,255);
+amarillo semaforo rgba(254,189,46,255);
+
+azul menu rgba(2,122,255,255);
+celeste react #61DBFB;
+
+blanco letra rgba(235,235,235,255);
+gris intermedio rgba(90,92,92,255);
+gris semioscuro rgba(55,57,57,255);
+gris oscuro rgba(34,36,37,255);
+
+*/
+
+.itemCount {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+}
+
+.area-operacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgba(235,235,235,255);
+    padding: 0.1em;
+    margin: 0.1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sumaResta{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color:  #61DBFB;
+    padding: 0.25em;
+    margin: 0.25em;
+    font-size: 1em;
+
+    width: 3em;
+    text-align: center;
+}
+
+.cantidadCompra {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.agregarCarrito {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: rgba(254,189,46,255);
+    padding: 0.5em;
+    font-size: 1em;
+    padding: 0.2em;
+    text-align: center;
+}

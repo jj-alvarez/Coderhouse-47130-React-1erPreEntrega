@@ -1,24 +1,17 @@
 import "./MainSection.css"
-import ItemListContainer from './ItemListContainer'
+import React from 'react';
+import { useState } from 'react'
+import { useRef } from 'react'
+import { useEffect} from 'react'
 
-const MainSection = () => {
+const MainSection = ({ onIngresarClick }) => {
   return (
         <>
             <img src="./src/assets/img/main-logo-002.png" className="main-logo" alt="La Biblioteca Escondida" />
             <h1>La Biblioteca Escondida</h1>
-            <button className='btn-ingresar'>Ingresar</button>
+            <button className='btn-ingresar' onClick={onIngresarClick}>Ingresar</button>
         </>
     );
 };
 
 export default MainSection;
-
-
-/*
-<>
-    <img src="./src/assets/img/main-logo-002.png" className="main-logo" alt="La Biblioteca Escondida" />
-    <h1>La Biblioteca Escondida</h1>
-    <p className='proximamente'>Pagina en construccion. Subcribite para estar al tanto de nuestras novedades!</p>
-    <button className='btn-newsletter'>Newsletter</button>
-</>
-*/

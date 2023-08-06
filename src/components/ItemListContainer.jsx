@@ -1,12 +1,32 @@
+import React from 'react';
+import { useState } from 'react'
+import { useRef } from 'react'
+import { useEffect} from 'react'
 import "./MainSection.css"
+import "./ItemListContainer.css"
+import ItemCount from './ItemCount';
+import CartWidget from './CartWidget';
 
 const ItemListContainer = () => {
-  return (
-        <>
-            <p className='proximamente'>Pagina en construccion. Subcribite para estar al tanto de nuestras novedades!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde soluta autem ea mollitia impedit sint voluptas nulla magnam nobis sed, magni consequatur. Exercitationem facere accusamus iure doloremque aliquam odit obcaecati!</p>
-        </>
+    const handleAddToCart = (count) => {
+        console.log(`Agregando ${count} ítem(s) al carrito`);
+    };
+  
+    return (
+      <div className='itemListContainer'>
+        <h2>La Biblioteca Escondida</h2>
+        <p>Aqui encontraras todos nuestros productos!</p>
+        <div className='itemMainArea'>
+            <ItemCount stock={10} onAdd={handleAddToCart} />
+            <ItemCount stock={10} onAdd={handleAddToCart} />
+            <ItemCount stock={10} onAdd={handleAddToCart} />
+            <ItemCount stock={10} onAdd={handleAddToCart} />
+            <ItemCount stock={10} onAdd={handleAddToCart} />
+            <ItemCount stock={10} onAdd={handleAddToCart} />
+        </div>
+      </div>
     );
-};
+  };
+  
+  export default ItemListContainer;
 
-export default ItemListContainer;
