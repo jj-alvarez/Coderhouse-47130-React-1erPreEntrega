@@ -1,0 +1,41 @@
+/* colores */
+/*
+
+rojo semaforo rgba(255,96,87,255);
+verde semaforo rgba(98,186,71,255);
+amarillo semaforo rgba(254,189,46,255);
+
+azul menu rgba(2,122,255,255);
+celeste react #61DBFB;
+
+blanco letra rgba(235,235,235,255);
+gris intermedio rgba(90,92,92,255);
+gris semioscuro rgba(55,57,57,255);
+gris oscuro rgba(34,36,37,255);
+
+*/
+
+.item{
+    background-color: rgba(254,189,46,255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+}
+
+.item h3{
+    color: rgba(34,36,37,255);
+    font-size: 14px;
+}
+
+.item p{
+    color: rgba(34,36,37,255);
+    font-size: 14px;
+}
+
+.item img{
+    height: 10em;
+    width: auto;
+}

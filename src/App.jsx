@@ -18,31 +18,31 @@ function App() {
     const [showItemList, setShowItemList] = useState(false);
    
     const ingresarClick = () => {
-      setShowItemList(true);
+        setShowItemList(true);
     };
   
     const handleAddToCart = (count) => {
-      setCartTotal(cartTotal + count);
+        setCartTotal(cartTotal + count);
     };
   
     return (
-      <>
-        <div className='sitio'>
-          <div className='header-area'>
-            <Mainlogo />
-            <Navbar />
-            <CartWidget />
-          </div>
-  
-          <div className='main-area'>
-            {showItemList ? <ItemListContainer onAddToCart={handleAddToCart} /> : <MainSection onIngresarClick={ingresarClick} />}
-          </div>
-  
-          <div className='footer-area'>
-            <Footer />
-          </div>
-        </div>
-      </>
+        <>
+            <div className='sitio'>
+                <div className='header-area'>
+                    <Mainlogo />
+                    <Navbar />
+                    <CartWidget />
+                </div>
+    
+                <div className='main-area'>
+                    {showItemList ? <ItemListContainer onAddToCart={handleAddToCart} /> : <MainSection onIngresarClick={ingresarClick} />}
+                </div>
+    
+                <div className='footer-area'>
+                    <Footer />
+                </div>
+            </div>
+        </>
     );
   }
   
