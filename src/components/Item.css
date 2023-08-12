@@ -39,3 +39,14 @@ gris oscuro rgba(34,36,37,255);
     height: 10em;
     width: auto;
 }
+
+.btn-masInfo {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: rgba(34,36,37,255);
+    padding: 0.5em;
+    font-size: 1em;
+    padding: 0.2em;
+    text-align: center;
+    color: rgba(235,235,235,255);
+}
