@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "titulo": "The Fellowship Of The Ring",
+      "autor": "J.R.R. Tolkien",
+      "universo": "The Lord Of The Rings",
+      "precio": 25,
+      "foto": "../src/assets/img/tapas/the-fellowship-of-the-ring.jpeg"
+    },
+    {
+      "id": 2,
+      "titulo": "The Two Towers",
+      "autor": "J.R.R. Tolkien",
+      "universo": "The Lord Of The Rings",
+      "precio": 25,
+      "foto": "../src/assets/img/tapas/the-two-towers.jpeg"
+    },
+    {
+      "id": 3,
+      "titulo": "The Return of the King",
+      "autor": "J.R.R. Tolkien",
+      "universo": "The Lord Of The Rings",
+      "precio": 25,
+      "foto": "../src/assets/img/tapas/the-return-of-the-king.jpeg"
+    },
+    {
+      "id": 4,
+      "titulo": "Eisenhorn: The omnibus",
+      "autor": "Dan Abnett",
+      "universo": "Warhammer 40.000",
+      "precio": 35,
+      "foto": "../src/assets/img/tapas/eisenhorn.jpeg"
+    },
+    {
+      "id": 5,
+      "titulo": "Indomitus",
+      "autor": "Gav Thorpe",
+      "universo": "Warhammer 40.000",
+      "precio": 15,
+      "foto": "../src/assets/img/tapas/indomitus-tapa.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Krieg: A death korps novel",
+      "autor": "Steve Lyons",
+      "universo": "Warhammer 40.000",
+      "precio": 15,
+      "foto": "../src/assets/img/tapas/krieg-tapa.jpg"
+    },
+    
+    {
+      "id": 7,
+      "titulo": "The Last Wish",
+      "autor": "Andrzej Sapkowski",
+      "universo": "The Witcher",
+      "precio": 25,
+      "foto": "../src/assets/img/tapas/last-wish.jpeg"
+    },
+    {
+      "id": 8,
+      "titulo": "Tides Of Darkness",
+      "autor": "Aaron Rosenberg",
+      "universo": "Warcraft",
+      "precio": 15,
+      "foto": "../src/assets/img/tapas/tides-of-darkness.jpeg"
+    },
+    {
+      "id": 9,
+      "titulo": "Rise Of The Horde",
+      "autor": "Christie Golden",
+      "universo": "Warcraft",
+      "precio": 10,
+      "foto": "../src/assets/img/tapas/rise-horde.jpeg"
+    },
+    {
+      "id": 10,
+      "titulo": "Arthas: Rise of the Lich King",
+      "autor": "Christie Golden",
+      "universo": "Warcraft",
+      "precio": 25,
+      "foto": "../src/assets/img/tapas/arthas.jpeg"
+    }
+]
+  

@@ -1,10 +1,15 @@
+import React from 'react';
+import { useState } from 'react'
+import { useRef } from 'react'
+import { useEffect} from 'react'
+
 import "./navbar.css";
 
 const Navbar = () => {
     return (
         <div className="navbar-links">
             <a href="/">Home</a>
-            <a href="">Proximamente</a>
+            <a href="">Tolkien</a>
             <a href="">Proximamente</a>
             <a href="">Proximamente</a>
             <a href="">Proximamente</a>

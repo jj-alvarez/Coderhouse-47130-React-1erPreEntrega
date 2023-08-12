@@ -11,6 +11,7 @@ import Footer from "./components/Footer"
 import MainSection from './components/MainSection'
 import ItemListContainer from './components/ItemListContainer'
 import ItemCount from './components/ItemCount';
+import Proximamente from './components/Proximamente';
 
 
 
@@ -24,6 +25,7 @@ function App() {
     const handleAddToCart = (count) => {
         setCartTotal(cartTotal + count);
     };
+    
   
     return (
         <>
