@@ -1,0 +1,5 @@
+function Proximamente () {
+    return(
+        <Proximamente />
+    )    
+}

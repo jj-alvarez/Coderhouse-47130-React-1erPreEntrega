@@ -2,26 +2,20 @@ import React from 'react';
 import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 import "./navbar.css";
 
 const Navbar = () => {
     return (
         <div className="navbar-links">
-            <a href="/">Home</a>
+            <Link to={`/`}>Home</Link>
             <a href="">Tolkien</a>
-            <a href="">Proximamente</a>
-            <a href="">Proximamente</a>
-            <a href="">Proximamente</a>
+            <Link to={`/Proximamente`}>Proximamente</Link>
+            <Link to={`/Proximamente`}>Proximamente</Link>
+            <Link to={`/Proximamente`}>Proximamente</Link>
         </div>
     )
 }
 
 export default Navbar;
-
-// <a href="/">Home</a>
-// <a href="">Historia</a>
-// <a href="">Diseño</a>
-// <a href="">Musica</a>
-// <a href="">Programacion</a>
-

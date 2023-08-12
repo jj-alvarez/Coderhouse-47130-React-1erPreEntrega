@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 import "./Item.css"
 
@@ -12,9 +13,12 @@ const Item = () => {
         <div className='item'>
             <img src="./src/assets/img/main-logo-002-black.png" className="" alt="La Biblioteca Escondida" />
             <h3>item</h3>
-            <button className='btn-masInfo'>Mas Informacion</button>
+            <Link to={`/Item`}><button className='btn-masInfo'>Mas Informacion</button></Link>
         </div>
     );
 };
   
 export default Item;
+
+
+

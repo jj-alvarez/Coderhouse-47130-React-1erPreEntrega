@@ -15,10 +15,30 @@ gris oscuro rgba(34,36,37,255);
 
 */
 
-.itemDetailContainer{
+.itemDetail{
+    background-color: rgba(254,189,46,255);
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    width: 30%;
+}
+
+.itemDetail img{
+    height: 20em;
+    padding: 0.5em;
+}
+
+.itemDetail h3{
+    color: rgba(34,36,37,255);
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.itemDetail p{
+    color: rgba(34,36,37,255);
+    padding: 0.5em;
+    font-size: 1em;
 }

@@ -16,17 +16,7 @@ import Proximamente from './components/Proximamente';
 
 
 function App() {
-    const [showItemList, setShowItemList] = useState(false);
-   
-    const ingresarClick = () => {
-        setShowItemList(true);
-    };
-  
-    const handleAddToCart = (count) => {
-        setCartTotal(cartTotal + count);
-    };
-    
-  
+
     return (
         <>
             <div className='sitio'>
@@ -37,7 +27,7 @@ function App() {
                 </div>
     
                 <div className='main-area'>
-                    {showItemList ? <ItemListContainer onAddToCart={handleAddToCart} /> : <MainSection onIngresarClick={ingresarClick} />}
+                    <MainSection />
                 </div>
     
                 <div className='footer-area'>
@@ -48,4 +38,4 @@ function App() {
     );
   }
   
-  export default App;
+export default App;
