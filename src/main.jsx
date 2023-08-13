@@ -17,7 +17,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/Proximamente" element={<Proximamente />} /> 
                 <Route path="/Catalogo" element={<ItemListContainer/>} /> 
                 <Route path="/Item" element={<ItemDetail/>} /> 
+                
             </Routes> 
         </BrowserRouter>
     </React.StrictMode>,
 )
+
+/*
+
+<Route path="/Checkout" element={<Checkout/>} /> 
+*/

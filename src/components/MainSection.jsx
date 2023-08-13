@@ -10,7 +10,7 @@ const MainSection = ({ onIngresarClick }) => {
         <>
             <img src="./src/assets/img/main-logo-002.png" className="main-logo" alt="La Biblioteca Escondida" />
             <h1>La Biblioteca Escondida</h1>
-            <Link to={`/Catalogo`}><button className='btn-ingresar' onClick={onIngresarClick}>Ingresar</button></Link>
+            <Link to={`/Catalogo`} className='btn-ingresar'>Ingresar</Link>
         </>
     );
 };

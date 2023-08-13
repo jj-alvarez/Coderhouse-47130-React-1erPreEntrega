@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="navbar-links">
             <Link to={`/`}>Home</Link>
-            <a href="">Tolkien</a>
+            <Link to={`/Catalogo`}>Catalogo</Link>
             <Link to={`/Proximamente`}>Proximamente</Link>
             <Link to={`/Proximamente`}>Proximamente</Link>
             <Link to={`/Proximamente`}>Proximamente</Link>

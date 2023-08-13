@@ -61,6 +61,8 @@ gris oscuro rgba(34,36,37,255);
     display: flex;
     padding: 0.2em;
     margin-top: 1em;
+    text-decoration: none;
+    color: rgba(34,36,37,255);
 }
 
 .btn-newsletter {
@@ -72,4 +74,5 @@ gris oscuro rgba(34,36,37,255);
     font-weight: 900;
     display: flex;
     padding: 0.2em;
+    text-decoration: none;
 }

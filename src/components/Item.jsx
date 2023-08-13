@@ -13,7 +13,7 @@ const Item = () => {
         <div className='item'>
             <img src="./src/assets/img/main-logo-002-black.png" className="" alt="La Biblioteca Escondida" />
             <h3>item</h3>
-            <Link to={`/Item`}><button className='btn-masInfo'>Mas Informacion</button></Link>
+            <Link to={`/Item`} className='btn-masInfo'>Mas Informacion</Link>
         </div>
     );
 };
