@@ -3,20 +3,36 @@ import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 
 import "./ItemDetail.css"
 import "./ItemCount.css"
 import '../App.css'
+import "./MainLogo.css";
+import ItemCount from './ItemCount';
+import librosData from './libros.json';
 import Navbar from './NavBar'
 import Mainlogo from './MainLogo'
 import CartWidget from './CartWidget'
 import Footer from "./Footer"
-import ItemCount from './ItemCount';
 
 const ItemDetail = () => {
     const handleAddToCart = (count) => {
         console.log(`Agregando ${count} ítem(s) al carrito`);
     };
+
+    const { id } = useParams(); 
+    
+    const [book, setBook] = useState(null);
+
+    useEffect(() => {
+        setTimeout(() => {
+            const selectedBook = librosData.find(libro => libro.id.toString() === id);
+            setBook(selectedBook);
+        }, 1000);
+    }, [id]);
+
+
 
     return (
         <>
@@ -29,9 +45,18 @@ const ItemDetail = () => {
 
                 <div className='main-area'>
                     <div className='itemDetail'>
-                        <img src="./src/assets/img/main-logo-002-black.png" className="" alt="La Biblioteca Escondida" />
-                        <h3>item</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex.</p>
+                        {book ? (
+                            <div className='infoGeneral'>
+                                <img src={book.foto} alt={book.titulo} />
+                                <h2>{book.titulo}</h2>
+                                <p>Autor: {book.autor}</p>
+                                <p>Universo: {book.universo}</p>
+                                <p>Precio: ${book.precio}</p>
+                                <p>{book.info}</p>
+                            </div>
+                        ) : (
+                            <p>Cargando detalles del libro...</p>
+                        )}
                         <ItemCount stock={10} onAdd={handleAddToCart} />
                     </div>
                 </div>

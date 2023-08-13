@@ -15,12 +15,29 @@ gris oscuro rgba(34,36,37,255);
 
 */
 
-.itemList {
+.sitio {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
-.il-titulos{
+.main-area {
+    flex: 1;
+    background-color: rgba(90,92,92,255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.itemList {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.il-titulos {
+    text-align: center;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -42,12 +59,8 @@ gris oscuro rgba(34,36,37,255);
     text-align: center;
 }
 
-.itemMainArea{
+.itemMainArea {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    padding: 1em;
-    margin: 1em;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }

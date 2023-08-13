@@ -21,7 +21,6 @@ gris oscuro rgba(34,36,37,255);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 .area-operacion{
@@ -38,13 +37,13 @@ gris oscuro rgba(34,36,37,255);
 .btn-sumaResta{
     border-radius: 8px;
     border: 1px solid transparent;
-    background-color:  #61DBFB;
+    background-color:  rgba(254,189,46,255);
     padding: 0.25em;
     margin: 0.25em;
     font-size: 1em;
-
     width: 3em;
     text-align: center;
+    color: rgba(34,36,37,255);
 }
 
 .cantidadCompra {
@@ -55,11 +54,23 @@ gris oscuro rgba(34,36,37,255);
 .agregarCarrito {
     border-radius: 8px;
     border: 1px solid transparent;
-    background-color: rgba(34,36,37,255);
-    padding: 0.5em;
+    background-color: rgba(254,189,46,255);
     font-size: 1em;
     padding: 0.2em;
     text-align: center;
-    color: rgba(235,235,235,255);
+    color: rgba(34,36,37,255);
     width: 10em;
+}
+
+.btn-volver {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #61DBFB;
+    font-size: 1em;
+    padding: 0.2em;
+    text-align: center;
+    color: rgba(34,36,37,255);
+    width: 10em;
+    text-decoration: none;
+    margin-top: 10px;
 }

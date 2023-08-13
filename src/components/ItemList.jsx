@@ -12,9 +12,6 @@ const ItemList = () => {
     return (
       <div className='itemListContainer'>
         <Item />
-        <Item />
-        <Item />
-        <Item />
       </div>
     );
 };

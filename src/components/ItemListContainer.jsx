@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 
 import "./ItemListContainer.css"
 import ItemList from './ItemList';
+import Item from './Item';
 import '../App.css'
 import Navbar from './NavBar'
 import Mainlogo from './MainLogo'
@@ -25,13 +26,13 @@ const ItemListContainer = () => {
             </div>
 
             <div className='main-area'>
-            <div className='itemList'>
+                <div className='itemList'>
                     <div className='il-titulos'> 
                         <h2>La Biblioteca Escondida</h2>
                         <p>Aqui encontraras todos nuestros productos!</p>
                     </div>
                     <div className='itemMainArea'>
-                        <ItemList />
+                        <Item />
                     </div>
                 </div>
             </div>

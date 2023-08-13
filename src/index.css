@@ -30,7 +30,8 @@ gris oscuro rgba(34,36,37,255);
   "main-area"
   "footer-area";
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 100vh;
 }
 
 /* --------HEADER------------------------------------------------------------------------------------------ */

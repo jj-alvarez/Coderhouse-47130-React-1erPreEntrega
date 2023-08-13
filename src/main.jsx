@@ -8,6 +8,7 @@ import App from './App.jsx'
 import Proximamente from './components/Proximamente.jsx'
 import ItemListContainer from './components/ItemListContainer'
 import ItemDetail from './components/ItemDetail'
+import Checkout from './components/Checkout'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
@@ -16,14 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path='/' element={<App />} />
                 <Route path="/Proximamente" element={<Proximamente />} /> 
                 <Route path="/Catalogo" element={<ItemListContainer/>} /> 
-                <Route path="/Item" element={<ItemDetail/>} /> 
-                
+                <Route path="/ItemDetail/:id" element={<ItemDetail/>} /> 
+                <Route path="/Checkout" element={<Checkout/>} /> 
             </Routes> 
         </BrowserRouter>
     </React.StrictMode>,
 )
-
-/*
-
-<Route path="/Checkout" element={<Checkout/>} /> 
-*/
