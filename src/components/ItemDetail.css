@@ -22,3 +22,14 @@ gris oscuro rgba(34,36,37,255);
     padding: 1em;
     margin: 1em;
 }
+
+.itemDetail article{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.precioItem{
+    font-weight: bold;
+    color: black;
+    padding-top: 0.5em;
+}

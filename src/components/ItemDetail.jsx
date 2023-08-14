@@ -17,7 +17,7 @@ import CartWidget from './CartWidget'
 import Footer from "./Footer"
 
 const ItemDetail = () => {
-    const handleAddToCart = (count) => {
+    const agregarACarrito = (count) => {
         console.log(`Agregando ${count} ítem(s) al carrito`);
     };
 
@@ -51,13 +51,13 @@ const ItemDetail = () => {
                                 <h2>{book.titulo}</h2>
                                 <p>Autor: {book.autor}</p>
                                 <p>Universo: {book.universo}</p>
-                                <p>Precio: ${book.precio}</p>
-                                <p>{book.info}</p>
+                                <p className='precioItem'>Precio: ${book.precio}</p>
+                                <article>{book.info}</article>
                             </div>
                         ) : (
-                            <p>Cargando detalles del libro...</p>
+                            <p>Cargando detalles del libro seleccionado...</p>
                         )}
-                        <ItemCount stock={10} onAdd={handleAddToCart} />
+                        <ItemCount stock={10} onAdd={agregarACarrito} />
                     </div>
                 </div>
 

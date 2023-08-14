@@ -6,7 +6,7 @@
     "universo": "The Lord Of The Rings",
     "precio": 25,
     "foto": "../src/assets/img/tapas/the-fellowship-of-the-ring.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el señor oscuro Sauron."
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "universo": "The Lord Of The Rings",
     "precio": 25,
     "foto": "../src/assets/img/tapas/the-two-towers.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "Se continúa la narración de las aventuras de los protagonistas de La Comunidad del Anillo: la muerte de Boromir, el secuestro de Merry y Pippin por los orcos de Saruman y su posterior huida, las batallas de Aragorn, Legolas y Gimli en el Oeste en contra de los ejércitos del señor oscuro y el viaje de Frodo y Sam hacia el Este, cruzando las tierras controladas por el enemigo para llegar al Monte del Destino y destruir el Anillo Único."
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "universo": "The Lord Of The Rings",
     "precio": 25,
     "foto": "../src/assets/img/tapas/the-return-of-the-king.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "El viaje de La Comunidad del Anillo está llegando a su fin. Cuanto más cerca está Frodo de su destino, más pesada se va haciendo la carga. El propio Anillo pondrá a prueba su resistencia y, en última instancia, su humanidad."
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "universo": "Warhammer 40.000",
     "precio": 35,
     "foto": "../src/assets/img/tapas/eisenhorn.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "From investigating strange murders to facing off against a vast interstellar organisation, Gregor Eisenhorn is an Inquisitor who is willing to pursue dubious means to guarantee success. Follow his journey as he becomes entangled in the fate of the alien text known as the Necroteuch, and draws the ire of the Imperium to him as he becomes embroiled in cat and mouse games and double-crossing with powerful friends and foes."
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "universo": "Warhammer 40.000",
     "precio": 15,
     "foto": "../src/assets/img/tapas/indomitus-tapa.jpg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "For nearly ten years, the Indomitus Crusade has waged a war of defiance and reconquest in the war-torn Imperium. Attached to Crusade Fleet Quintus, the Ultramarines of the Ithraca Vengeance are drawn to a stricken world. The Ultramarines face an impossible decision: mount a desperate last stand to destroy the Pariah Nexus, or break away and damn the entire sector to bring word of this ancient foe s resurgence to the only being capable of halting it, the Lord Primarch Roboute Guilliman."
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "universo": "Warhammer 40.000",
     "precio": 15,
     "foto": "../src/assets/img/tapas/krieg-tapa.jpg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "The Death Korps of Krieg are deployed to a soul-crushing siege in the Octarius War Zone. They are the right regiment for the job, though victory may come at a price that some might baulk to pay."
   },
   
   {
@@ -61,7 +61,7 @@
     "universo": "The Witcher",
     "precio": 25,
     "foto": "../src/assets/img/tapas/last-wish.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "Geralt of Rivia is a witcher. A cunning sorcerer. A merciless assassin. And a cold-blooded killer. His sole purpose: to destroy the monsters that plague the world. But not everything monstrous-looking is evil and not everything fair is good. . . and in every fairy tale there is a grain of truth."
   },
   {
     "id": 8,
@@ -70,7 +70,7 @@
     "universo": "Warcraft",
     "precio": 15,
     "foto": "../src/assets/img/tapas/tides-of-darkness.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "After killing the corrupt Warchief Blackhand, Orgrim Doomhammer was quick to seize control over the Orcish Horde. Elves, dwarves, and trolls enter the fray as the two emerging factions vie for dominance. Will the valiant Alliance prevail, or will the Horde's tide of darkness consume the last vestiges of freedom on Azeroth?"
   },
   {
     "id": 9,
@@ -79,7 +79,7 @@
     "universo": "Warcraft",
     "precio": 10,
     "foto": "../src/assets/img/tapas/rise-horde.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "Though the young Warchief Thrall ended the demon curse that had plagued his people for generations, the orcs still wrestle with the sins of their bloody past. As the rampaging Horde, they waged a number of devastating wars against their perennial enemy — the Alliance."
   },
   {
     "id": 10,
@@ -88,7 +88,7 @@
     "universo": "Warcraft",
     "precio": 25,
     "foto": "../src/assets/img/tapas/arthas.jpeg",
-    "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at aliquam odio aut minus fugit quia amet similique tempore veniam corporis ad sit molestiae beatae saepe, consequuntur quaerat laboriosam ex."
+    "info": "When a plague of undeath threatened all that he loved, Arthas was driven to pursue an ill-fated quest for a runeblade powerful enough to save his homeland. Yet the object of his search would exact a heavy price from its new master, beginning a horrifying descent into damnation. Arthas's path would lead him through the arctic northern wastes toward the Frozen Throne, where he would face, at long last, the darkest of destinies."
   }
 ]
 
