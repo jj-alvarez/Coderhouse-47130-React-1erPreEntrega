@@ -4,11 +4,12 @@ import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
+import logoImage from '../assets/img/main-logo-002.png';
 
-const MainSection = ({ onIngresarClick }) => {
+const MainSection = () => {
   return (
         <>
-            <img src="./src/assets/img/main-logo-002.png" className="main-logo" alt="La Biblioteca Escondida" />
+            <img src={logoImage} className="main-logo" alt="La Biblioteca Escondida" />
             <h1>La Biblioteca Escondida</h1>
             <Link to={`/Catalogo`} className='btn-ingresar'>Ingresar</Link>
         </>
