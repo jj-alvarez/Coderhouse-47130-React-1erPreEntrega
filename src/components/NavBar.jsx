@@ -19,9 +19,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-// <Link to={`The Lord Of The Rings`}>The Lord Of The Rings</Link>
-// <Link to={`/Warhammer 40K`}>Warhammer 40K</Link>
-// <Link to={`/Warcraft`}>Warcraft</Link>
-
-// <Link to={`/Catalogo/${libro.universo}`}></Link>

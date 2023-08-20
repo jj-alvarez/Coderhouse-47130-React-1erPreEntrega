@@ -9,11 +9,7 @@ import "./ItemDetail.css"
 import "./ItemCount.css"
 import '../App.css'
 import "./MainLogo.css";
-import librosData from './libros.json';
-import Navbar from './NavBar'
-import Mainlogo from './MainLogo'
-import CartWidget from './CartWidget'
-import Footer from "./Footer"
+
 
 const ItemCount = ({ stock, onAdd }) => {
     const [count, setCount] = useState(1);

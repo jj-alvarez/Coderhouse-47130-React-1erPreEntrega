@@ -6,14 +6,16 @@ import {Link} from 'react-router-dom'
 
 import "./Footer.css"
 
-const Footer = () => {
+const FooterArea = () => {
   return (
     <>
-        <p className="read-the-docs">
-            La Biblioteca Escondida | Copyright 2023 | Todos los derechos reservados.
-        </p>
+        <div className='footer-area'>
+            <p className="read-the-docs">
+                La Biblioteca Escondida | Copyright 2023 | Todos los derechos reservados.
+            </p>
+        </div>
     </>
-  );
+    );
 };
 
-export default Footer;
+export default FooterArea;

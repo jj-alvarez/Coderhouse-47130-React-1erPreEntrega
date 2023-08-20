@@ -14,3 +14,25 @@ gris semioscuro rgba(55,57,57,255);
 gris oscuro rgba(34,36,37,255);
 
 */
+
+.checkout-area{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-area h2{
+    color: rgba(254,189,46,255);
+    font-size: 2.5em;
+    display: flex;
+    text-align: center;
+}
+
+.checkout-area p {
+    color: rgba(235,235,235,255);
+    font-size: 1.5em;
+    display: flex;
+    text-align: center;
+}

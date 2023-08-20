@@ -11,10 +11,8 @@ import '../App.css'
 import "./MainLogo.css";
 import ItemCount from './ItemCount';
 import librosData from './libros.json';
-import Navbar from './NavBar'
-import Mainlogo from './MainLogo'
-import CartWidget from './CartWidget'
-import Footer from "./Footer"
+import HeaderArea from './headerArea';
+import FooterArea from './Footer';
 
 const ItemDetail = () => {
     const agregarACarrito = (count) => {
@@ -32,16 +30,10 @@ const ItemDetail = () => {
         }, 1000);
     }, [id]);
 
-
-
     return (
         <>
             <div className='sitio'>
-                <div className='header-area'>
-                    <Mainlogo />
-                    <Navbar />
-                    <CartWidget />
-                </div>
+                <HeaderArea />
 
                 <div className='main-area'>
                     <div className='itemDetail'>
@@ -61,9 +53,7 @@ const ItemDetail = () => {
                     </div>
                 </div>
 
-                <div className='footer-area'>
-                    <Footer />
-                </div>
+                <FooterArea />
             </div>
         </>
     );

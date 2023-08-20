@@ -23,6 +23,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </BrowserRouter>
     </React.StrictMode>,
 )
-
-// <Route path="/Catalogo" element={<ItemListContainer/>} />
-//<Route path="/Catalogo/:universo" element={<ItemListContainer/>} />
