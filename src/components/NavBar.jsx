@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="navbar-links">
             <Link to={`/`}>Home</Link>
             <Link to={`/Catalogo`}>Catalogo</Link>
-            <Link to={`/Proximamente`}>Proximamente</Link>
+            <button>Warcraft</button>
             <Link to={`/Proximamente`}>Proximamente</Link>
             <Link to={`/Proximamente`}>Proximamente</Link>
         </div>
@@ -19,3 +19,7 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+// <Link to={`The Lord Of The Rings`}>The Lord Of The Rings</Link>
+// <Link to={`/Warhammer 40K`}>Warhammer 40K</Link>
+// <Link to={`/Warcraft`}>Warcraft</Link>

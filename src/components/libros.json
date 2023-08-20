@@ -53,18 +53,8 @@
     "foto": "../src/assets/img/tapas/krieg-tapa.jpg",
     "info": "The Death Korps of Krieg are deployed to a soul-crushing siege in the Octarius War Zone. They are the right regiment for the job, though victory may come at a price that some might baulk to pay."
   },
-  
   {
     "id": 7,
-    "titulo": "The Last Wish",
-    "autor": "Andrzej Sapkowski",
-    "universo": "The Witcher",
-    "precio": 25,
-    "foto": "../src/assets/img/tapas/last-wish.jpeg",
-    "info": "Geralt of Rivia is a witcher. A cunning sorcerer. A merciless assassin. And a cold-blooded killer. His sole purpose: to destroy the monsters that plague the world. But not everything monstrous-looking is evil and not everything fair is good. . . and in every fairy tale there is a grain of truth."
-  },
-  {
-    "id": 8,
     "titulo": "Tides Of Darkness",
     "autor": "Aaron Rosenberg",
     "universo": "Warcraft",
@@ -73,7 +63,7 @@
     "info": "After killing the corrupt Warchief Blackhand, Orgrim Doomhammer was quick to seize control over the Orcish Horde. Elves, dwarves, and trolls enter the fray as the two emerging factions vie for dominance. Will the valiant Alliance prevail, or will the Horde's tide of darkness consume the last vestiges of freedom on Azeroth?"
   },
   {
-    "id": 9,
+    "id": 8,
     "titulo": "Rise Of The Horde",
     "autor": "Christie Golden",
     "universo": "Warcraft",
@@ -82,7 +72,7 @@
     "info": "Though the young Warchief Thrall ended the demon curse that had plagued his people for generations, the orcs still wrestle with the sins of their bloody past. As the rampaging Horde, they waged a number of devastating wars against their perennial enemy — the Alliance."
   },
   {
-    "id": 10,
+    "id": 9,
     "titulo": "Arthas: Rise of the Lich King",
     "autor": "Christie Golden",
     "universo": "Warcraft",
