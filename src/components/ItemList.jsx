@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 import Item from './Item.jsx'
 import "./ItemList.css"
-
+/*
 const ItemList = () => {
     
     return (
@@ -17,3 +17,4 @@ const ItemList = () => {
 };
   
 export default ItemList;
+*/

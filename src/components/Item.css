@@ -22,10 +22,29 @@ gris oscuro rgba(34,36,37,255);
 }
 
 .product {
+    /* 
     background-color: rgba(235,235,235,255);
     border-radius: 1em;
     padding: 1em;
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 20px); 
+    */
+    /*
+    background-color: rgba(235, 235, 235, 255);
+    border-radius: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px); 
+    box-sizing: border-box;  
+    */
+
+    background-color: rgba(235, 235, 235, 255);
+    border-radius: 1em;
+    padding: 1em;
+    width: 350px;
+    height: auto;
+
+
+    
 }
 
 .product img {

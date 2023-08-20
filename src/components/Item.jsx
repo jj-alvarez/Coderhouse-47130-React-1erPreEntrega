@@ -7,12 +7,10 @@ import librosData from './libros.json';
 
 import "./Item.css"
 
-
-const Item = () => {
-  
+const Item = ({ libros }) => {
     return (
         <div className='item'>
-            {librosData.map((libro) => (
+            {libros.map((libro) => (
                 <div key={libro.id} className='product'>
                     <img src={libro.foto} alt={libro.titulo} />
                     <h2>{libro.titulo}</h2>
@@ -25,5 +23,5 @@ const Item = () => {
         </div>
     );
 };
-  
+
 export default Item;
