@@ -19,21 +19,7 @@ function App() {
 
     return (
         <>
-            <div className='sitio'>
-                <div className='header-area'>
-                    <Mainlogo />
-                    <Navbar />
-                    <CartWidget />
-                </div>
-    
-                <div className='main-area'>
-                    <MainSection />
-                </div>
-    
-                <div className='footer-area'>
-                    <Footer />
-                </div>
-            </div>
+            <ItemListContainer />
         </>
     );
   }

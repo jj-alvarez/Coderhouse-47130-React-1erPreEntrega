@@ -44,7 +44,7 @@ const ItemCount = ({ stock, onAdd }) => {
             <button className='btn-sumaResta' onClick={sumar}>+</button>
         </div>
         <button className="agregarCarrito" onClick={agregarACarrito}>Agregar al carrito</button>
-        <Link to={`/Catalogo`} className='btn-volver'>Volver al catalogo</Link>
+        <Link to={`/`} className='btn-volver'>Volver al catalogo</Link>
       </div>
     );
   };

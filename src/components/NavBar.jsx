@@ -10,10 +10,10 @@ const Navbar = () => {
     return (
         <div className="navbar-links">
             <Link to={`/`}>Home</Link>
-            <Link to={`/Catalogo`}>Catalogo</Link>
-            <button>Warcraft</button>
-            <Link to={`/Proximamente`}>Proximamente</Link>
-            <Link to={`/Proximamente`}>Proximamente</Link>
+            <a href="">The Lord Of The Rings</a>
+            <a href="">Warhammer 40.000</a>
+            <a href="">Warcraft</a>
+            <Link to={`/Proximamente`}>Proximamente!</Link>
         </div>
     )
 }

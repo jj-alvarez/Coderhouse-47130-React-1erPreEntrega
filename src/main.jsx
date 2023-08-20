@@ -16,10 +16,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Routes>
                 <Route path='/' element={<App />} />
                 <Route path="/Proximamente" element={<Proximamente />} /> 
-                <Route path="/Catalogo" element={<ItemListContainer/>} /> 
+                <Route path="/Catalogo/:universo" element={<ItemListContainer/>} />
                 <Route path="/ItemDetail/:id" element={<ItemDetail/>} /> 
                 <Route path="/Checkout" element={<Checkout/>} /> 
             </Routes> 
         </BrowserRouter>
     </React.StrictMode>,
 )
+
+// <Route path="/Catalogo" element={<ItemListContainer/>} />
