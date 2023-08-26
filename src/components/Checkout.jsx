@@ -10,6 +10,7 @@ import HeaderArea from './headerArea';
 import FooterArea from './Footer';
 
 const Checkout = () => {
+
     return (
         <>
             <div className='sitio'>
@@ -33,7 +34,7 @@ const Checkout = () => {
                     </div>
                     <div className='botones-footer'>
                         <Link to={`/Cart`}><button className='btn-volver2'>Volver</button></Link>
-                        <button className='btn-volver3'>Finalizar</button>
+                        <Link to={`/Finalizar`}><button className="btn-volver3">Finalizar</button></Link>    
                     </div>
                 </div>
 

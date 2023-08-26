@@ -10,6 +10,8 @@ import ItemListContainer from './components/ItemListContainer'
 import ItemDetail from './components/ItemDetail'
 import Checkout from './components/Checkout'
 import Cart from './components/Cart'
+import Finalizar from './components/Finalizar'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/ItemDetail/:id" element={<ItemDetail/>} /> 
                 <Route path="/Checkout" element={<Checkout/>} /> 
                 <Route path="/Cart" element={<Cart/>} /> 
+                <Route path="/Finalizar" element={<Finalizar/>} /> 
             </Routes> 
         </BrowserRouter>
     </React.StrictMode>,
