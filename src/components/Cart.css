@@ -15,7 +15,7 @@ gris oscuro rgba(34,36,37,255);
 
 */
 
-.checkout-titulos{
+.cart-titulos{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -23,14 +23,14 @@ gris oscuro rgba(34,36,37,255);
     align-items: center;
 }
 
-.checkout-titulos h2{
+.cart-titulos h2{
     color: rgba(254,189,46,255);
     font-size: 2.5em;
     display: flex;
     text-align: center;
 }
 
-.checkout-titulos p {
+.cart-titulos p {
     color: rgba(235,235,235,255);
     font-size: 1.5em;
     display: flex;
@@ -38,8 +38,9 @@ gris oscuro rgba(34,36,37,255);
 }
 
 
-.checkout-area{
-    width: 40%;
+.cart-area{
+    height: 500px;
+    width: 70%;
     background-color: rgba(235,235,235,255);
     border-radius: 1em;
     padding: 1em;
@@ -47,25 +48,6 @@ gris oscuro rgba(34,36,37,255);
     color: rgba(34,36,37,255);
 }
 
-.renglon{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.renglon p{
-    font-size: 1em;
-    padding: 0.2em;
-}
-
-.renglon input{
-    width: 60%;
-    padding: 0.2em;
-    margin: 0.2em;
-    border-radius: 8px;
-    border: 1px solid rgba(90,92,92,255);
-}
 
 .botones-footer{
     display: flex;
@@ -89,22 +71,6 @@ gris oscuro rgba(34,36,37,255);
     text-decoration: none;
     margin-top: 10px;
 }
-
-.btn-volver3 {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    background-color: #61DBFB;
-    font-size: 1em;
-    padding: 0.2em;
-    margin-left: 1em;
-    text-align: center;
-    color: rgba(34,36,37,255);
-    width: 12em;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-
 .btn-avanzarCompra {
     border-radius: 8px;
     border: 1px solid transparent;

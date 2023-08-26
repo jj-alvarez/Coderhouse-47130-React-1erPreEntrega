@@ -9,6 +9,8 @@ import Proximamente from './components/Proximamente.jsx'
 import ItemListContainer from './components/ItemListContainer'
 import ItemDetail from './components/ItemDetail'
 import Checkout from './components/Checkout'
+import Cart from './components/Cart'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
@@ -19,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/Catalogo/:universo" element={<ItemListContainer/>} />
                 <Route path="/ItemDetail/:id" element={<ItemDetail/>} /> 
                 <Route path="/Checkout" element={<Checkout/>} /> 
+                <Route path="/Cart" element={<Cart/>} /> 
             </Routes> 
         </BrowserRouter>
     </React.StrictMode>,

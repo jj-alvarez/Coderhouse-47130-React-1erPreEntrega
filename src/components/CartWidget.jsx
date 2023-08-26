@@ -10,12 +10,14 @@ import "./CartWidget.css"
 const CartWidget = () => {
     return (
         <>
-            <Link to={`/Checkout`}>
+        <div className='carrito'>
+            <Link to={`/Cart`}>
                 <div className="carrito-icon">
                     <FaShoppingCart size={32} color="#61DBFB" />
-                    <p className="cart-numero">0</p>
+                    <p className="cart-numero"></p>
                 </div>
             </Link>
+        </div>
         </>
     );
 };

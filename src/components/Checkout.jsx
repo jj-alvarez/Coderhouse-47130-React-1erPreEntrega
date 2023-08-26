@@ -16,9 +16,24 @@ const Checkout = () => {
                 <HeaderArea />
 
                 <div className='main-area'>
+                    <div className='checkout-titulos'>
+                        <h2>Finalizar Compra</h2>
+                        <p>Ingresa tus datos para finalizar la compra</p>
+                    </div>
                     <div className='checkout-area'>
-                        <h2>Carrito de Compras</h2>
-                        <p>Sitio en construccion.<br />Proximamente, aquí veras los items de tu carrito de compras.<br />Muchas gracias!</p>
+                        <div className='renglon'>
+                            <p>Nombre</p><input type="text" />
+                        </div>
+                        <div className='renglon'>
+                            <p>Apellido</p><input type="text" />
+                        </div>
+                        <div className='renglon'>
+                            <p>e-mail</p><input type="text" />
+                        </div>
+                    </div>
+                    <div className='botones-footer'>
+                        <Link to={`/Cart`}><button className='btn-volver2'>Volver</button></Link>
+                        <button className='btn-volver3'>Finalizar</button>
                     </div>
                 </div>
 

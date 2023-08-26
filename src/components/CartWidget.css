@@ -21,10 +21,20 @@ gris oscuro rgba(34,36,37,255);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.carrito-icon p{
+    text-decoration: none;
 }
 
 .cart-numero{
     color: rgba(254,189,46,255);
     font-size: 0.5em;
     padding-left: 0.2em;
+    text-decoration: none;
+}
+
+.carrito{
+    text-decoration: none;
 }

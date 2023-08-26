@@ -62,7 +62,7 @@ gris oscuro rgba(34,36,37,255);
     width: 10em;
 }
 
-.btn-volver {
+.btn-carrito {
     border-radius: 8px;
     border: 1px solid transparent;
     background-color: #61DBFB;
@@ -70,6 +70,19 @@ gris oscuro rgba(34,36,37,255);
     padding: 0.2em;
     text-align: center;
     color: rgba(34,36,37,255);
+    width: 10em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-volver {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: rgba(34,36,37,255);
+    font-size: 1em;
+    padding: 0.2em;
+    text-align: center;
+    color: rgba(235,235,235,255);
     width: 10em;
     text-decoration: none;
     margin-top: 10px;
