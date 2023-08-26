@@ -20,7 +20,7 @@ const Finalizar = () => {
                         <h2>Muchas Gracias</h2>
                     </div>
                     <div className='botones-footer'>
-                        <Link to={`/`}><button className='btn-volver2'>Volver al home</button></Link>
+                        <button className='btn-volver2'><a href="/">Volver al home</a></button>
                     </div>
                 </div>
 

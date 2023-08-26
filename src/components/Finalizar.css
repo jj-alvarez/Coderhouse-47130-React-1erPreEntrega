@@ -60,6 +60,13 @@ gris oscuro rgba(34,36,37,255);
     text-decoration: none;
     margin-top: 10px;
 }
+
+.btn-volver2 a{
+    text-decoration: none;
+    color: rgba(235,235,235,255);
+}
+
+
 .btn-avanzarCompra {
     border-radius: 8px;
     border: 1px solid transparent;
