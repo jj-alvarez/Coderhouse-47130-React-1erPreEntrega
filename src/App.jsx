@@ -1,18 +1,59 @@
+/*
 import React from 'react';
-import { useState } from 'react'
-import { useRef } from 'react'
-import { useEffect} from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { ReactStrictMode } from 'react';
+import Proximamente from './components/Proximamente';
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetail from './components/ItemDetail';
+import Checkout from './components/Checkout';
+import Cart from './components/Cart';
+import Finalizar from './components/Finalizar';
 
-import './App.css'
-import ItemListContainer from './components/ItemListContainer'
 
 function App() {
+  return (
+    <>
+      <ItemListContainer />
+    </>
+  );
+}
 
-    return (
-        <>
-            <ItemListContainer />
-        </>
-    );
-  }
-  
 export default App;
+
+*/
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { ReactStrictMode } from 'react';
+
+import './index.css';
+import './app.css';
+
+import Proximamente from './components/Proximamente';
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetail from './components/ItemDetail';
+import Checkout from './components/Checkout';
+import Cart from './components/Cart';
+import Finalizar from './components/Finalizar';
+
+function App() {
+  return (
+    <React.StrictMode>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<ItemListContainer />} />
+          <Route path="/Proximamente" element={<Proximamente />} /> 
+          <Route path="/Catalogo/:universo" element={<ItemListContainer />} />
+          <Route path="/ItemDetail/:id" element={<ItemDetail />} /> 
+          <Route path="/Checkout" element={<Checkout />} /> 
+          <Route path="/Cart" element={<Cart />} /> 
+          <Route path="/Finalizar" element={<Finalizar />} /> 
+        </Routes> 
+      </BrowserRouter>
+    </React.StrictMode>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
