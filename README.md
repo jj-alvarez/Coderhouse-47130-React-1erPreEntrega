@@ -14,6 +14,7 @@ El sitio corresponde a un e-commerce de venta de libros de distintos generos y a
 
 - Se continuo desarrollando la imagen y estetica del sitio.
 - Se agregaron los componentes /Cart y /Checkout.
+- Se trabajo en la mecanica y funcionamiento general de la app.
 
 
 ## Pre entrega 02 - 20/agosto/2023
