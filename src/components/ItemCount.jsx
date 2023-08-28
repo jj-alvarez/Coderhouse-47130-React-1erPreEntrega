@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { useParams } from 'react-router-dom';
+import { CartContext } from '../context/CartContext';
 
 import "./ItemDetail.css"
 import "./ItemCount.css"
@@ -13,19 +14,19 @@ import "./MainLogo.css";
 
 const ItemCount = ({ stock, onAdd }) => {
     const [count, setCount] = useState(1);
-  
+
     const sumar = () => {
         if (count < stock) {
             setCount(count + 1);
         }
     };
-  
+
     const restar = () => {
         if (count > 1) {
             setCount(count - 1);
         }
     };
-  
+
     const agregarACarrito = () => {
         if (count > 0) {
             onAdd(count);

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useState } from 'react'
 import { useRef } from 'react'
 import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { useParams } from 'react-router-dom';
+import { CartContext } from '../context/CartContext';
 
 import "./ItemDetail.css"
 import "./ItemCount.css"
@@ -15,9 +16,23 @@ import HeaderArea from './headerArea';
 import FooterArea from './Footer';
 
 const ItemDetail = () => {
+
+    const { carrito, setCarrito } = useContext(CartContext);
+    
     const agregarACarrito = (count) => {
-        console.log(`Agregando ${count} ítem(s) al carrito`);
+        const libroEnCarrito = carrito.find(item => item.id === book.id);
+        
+        if (libroEnCarrito) {
+            const updatedCarrito = carrito.map(item =>
+                item.id === book.id ? { ...item, cantidad: item.cantidad + count } : item
+            );
+            setCarrito(updatedCarrito);
+        } else {
+            setCarrito([...carrito, { ...book, cantidad: count }]);
+        }
     };
+
+    // set time out
 
     const { id } = useParams(); 
     
@@ -29,6 +44,8 @@ const ItemDetail = () => {
             setBook(selectedBook);
         }, 1000);
     }, [id]);
+   
+    console.log(carrito);
 
     return (
         <>
