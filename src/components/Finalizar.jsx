@@ -18,6 +18,7 @@ const Finalizar = () => {
                 <div className='main-area'>
                     <div className='finalizar-titulos'>
                         <h2>Muchas Gracias</h2>
+                        <p>Se ha enviado un correo electrico con toda la informacion de la Orden #47130.</p>
                     </div>
                     <div className='botones-footer'>
                         <button className='btn-volver2'><a href="/">Volver al home</a></button>

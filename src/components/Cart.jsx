@@ -69,13 +69,13 @@ const Cart = () => {
                                 <td><img src={libro.foto} alt={libro.titulo} className='cart-book-image' /></td>
                                 <td>{libro.titulo}</td>
                                 <td>
-                                    <button onClick={() => restarCantidad(libro.id)}>-</button>
+                                    <button className='btn-op-cart-l' onClick={() => restarCantidad(libro.id)}>-</button>
                                     {libro.cantidad}
-                                    <button onClick={() => sumarCantidad(libro.id)}>+</button>
+                                    <button className='btn-op-cart-r' onClick={() => sumarCantidad(libro.id)}>+</button>
                                 </td>
                                 <td>${libro.precio * libro.cantidad}</td>
                                 <td>
-                                    <button onClick={() => eliminarLibro(libro.id)}>Eliminar</button>
+                                    <button className='btn-op-cart-x' onClick={() => eliminarLibro(libro.id)}>Eliminar</button>
                                 </td>
                             </tr>
                             ))}

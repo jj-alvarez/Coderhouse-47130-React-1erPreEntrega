@@ -65,15 +65,12 @@ const Checkout = () => {
                             </div>
                             {okVisible ? (
                                 <Link to={`/Finalizar`}>
-                                    <button
+                                    <button 
                                         onClick={() => {
                                             resetForm();
                                             setOkVisible(false);
-                                        }}
-                                        className="btn-volver333"
-                                    >
-                                        Finalizar
-                                    </button>
+                                        }}className="btn-volver333">Finalizar
+                                    </button>  
                                 </Link>
                             ) : (
                                 <button type="submit" className="btn-volver33">
