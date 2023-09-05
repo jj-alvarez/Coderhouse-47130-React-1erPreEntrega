@@ -32,17 +32,13 @@ const ItemDetail = () => {
         }
     };
 
-    // set time out
-
     const { id } = useParams(); 
     
     const [book, setBook] = useState(null);
 
     useEffect(() => {
-        setTimeout(() => {
-            const selectedBook = librosData.find(libro => libro.id.toString() === id);
-            setBook(selectedBook);
-        }, 1000);
+        const selectedBook = librosData.find(libro => libro.id.toString() === id);
+        setBook(selectedBook);
     }, [id]);
    
     console.log(carrito);
@@ -53,8 +49,8 @@ const ItemDetail = () => {
                 <HeaderArea />
 
                 <div className='main-area'>
-                    <div className='itemDetail'>
-                        {book ? (
+                    {book && (
+                        <div className='itemDetail'>
                             <div className='infoGeneral'>
                                 <img src={book.foto} alt={book.titulo} />
                                 <h2>{book.titulo}</h2>
@@ -63,11 +59,9 @@ const ItemDetail = () => {
                                 <p className='precioItem'>Precio: ${book.precio}</p>
                                 <article>{book.info}</article>
                             </div>
-                        ) : (
-                            <p>Cargando detalles del libro seleccionado...</p>
-                        )}
-                        <ItemCount stock={10} onAdd={agregarACarrito} />
-                    </div>
+                            <ItemCount stock={10} onAdd={agregarACarrito} />
+                        </div>
+                    )}
                 </div>
 
                 <FooterArea />

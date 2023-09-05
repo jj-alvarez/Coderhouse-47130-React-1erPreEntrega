@@ -62,6 +62,12 @@ gris oscuro rgba(34,36,37,255);
     width: 10em;
 }
 
+.agregarCarrito:active {
+    background-color: #61DBFB;
+    color: rgba(34,36,37,255);
+    transition: rgba(90,92,92,255) 1s ease-in-out;
+}
+
 .btn-carrito {
     border-radius: 8px;
     border: 1px solid transparent;
