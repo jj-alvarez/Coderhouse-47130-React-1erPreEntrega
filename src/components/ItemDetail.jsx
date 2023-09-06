@@ -11,17 +11,32 @@ import "./ItemCount.css"
 import '../App.css'
 import "./MainLogo.css";
 import ItemCount from './ItemCount';
-import librosData from './libros.json';
+//import librosData from './libros.json';
+import { collection, query, where, getDocs } from 'firebase/firestore';
+import { db } from '../firebase/client';
 import HeaderArea from './headerArea';
 import FooterArea from './Footer';
 
 const ItemDetail = () => {
-
     const { carrito, setCarrito } = useContext(CartContext);
-    
+    const { id } = useParams();
+    const [book, setBook] = useState(null);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const librosCollection = collection(db, 'libros');
+            const librosQuery = query(librosCollection, where('id', '==', parseInt(id)));
+            const librosSnapshot = await getDocs(librosQuery);
+            const libroData = librosSnapshot.docs[0].data();
+            setBook(libroData);
+        };
+
+        fetchData();
+    }, [id]);
+
     const agregarACarrito = (count) => {
         const libroEnCarrito = carrito.find(item => item.id === book.id);
-        
+
         if (libroEnCarrito) {
             const updatedCarrito = carrito.map(item =>
                 item.id === book.id ? { ...item, cantidad: item.cantidad + count } : item
@@ -31,17 +46,6 @@ const ItemDetail = () => {
             setCarrito([...carrito, { ...book, cantidad: count }]);
         }
     };
-
-    const { id } = useParams(); 
-    
-    const [book, setBook] = useState(null);
-
-    useEffect(() => {
-        const selectedBook = librosData.find(libro => libro.id.toString() === id);
-        setBook(selectedBook);
-    }, [id]);
-   
-    console.log(carrito);
 
     return (
         <>
@@ -59,10 +63,12 @@ const ItemDetail = () => {
                                 <p className='precioItem'>Precio: ${book.precio}</p>
                                 <article>{book.info}</article>
                             </div>
-                            <ItemCount stock={10} onAdd={agregarACarrito} />
+                            <ItemCount stock={book.stock} onAdd={agregarACarrito} />
                         </div>
                     )}
                 </div>
+
+                
 
                 <FooterArea />
             </div>

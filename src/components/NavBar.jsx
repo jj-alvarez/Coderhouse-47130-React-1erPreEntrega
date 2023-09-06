@@ -10,8 +10,8 @@ const Navbar = () => {
     return (
         <div className="navbar-links">
             <Link to={`/`}>Home</Link>
-            <Link to="/Catalogo/The%20Lord%20Of%20The%20Rings">The Lord Of The Rings</Link>
-            <Link to="/Catalogo/Warhammer%2040.000">Warhammer 40.000</Link>
+            <Link to="/Catalogo/The Lord Of The Rings">The Lord Of The Rings</Link>
+            <Link to="/Catalogo/Warhammer 40.000">Warhammer 40.000</Link>
             <Link to="/Catalogo/Warcraft">Warcraft</Link>
             <Link to={`/Proximamente`}>Proximamente!</Link>
         </div>

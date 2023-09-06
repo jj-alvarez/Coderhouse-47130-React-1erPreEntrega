@@ -4,22 +4,39 @@ import { useRef } from 'react'
 import { useEffect} from 'react'
 import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom'
+import { collection, query, where, getDocs } from 'firebase/firestore';
+import { db } from '../firebase/client';
 
 import "./ItemListContainer.css"
 import Item from './Item';
 import '../App.css'
-import librosData from './libros.json';
+//import librosData from './libros.json';
 import HeaderArea from './headerArea';
 import FooterArea from './Footer';
 
 const ItemListContainer = () => {
+
     const { universo } = useParams();
+    const [librosAMostrar, setLibrosAMostrar] = useState([]);
 
-    let librosAMostrar = librosData;
+    useEffect(() => {
+        const fetchData = async () => {
+            const librosCollection = collection(db, 'libros');
+            let librosQuery;
 
-    if (universo) {
-        librosAMostrar = librosData.filter(libro => libro.universo === universo);
-    }
+            if (universo) {
+                librosQuery = query(librosCollection, where('universo', '==', universo));
+            } else {
+                librosQuery = librosCollection;
+            }
+
+            const librosSnapshot = await getDocs(librosQuery);
+            const librosData = librosSnapshot.docs.map(doc => doc.data());
+            setLibrosAMostrar(librosData);
+        };
+
+        fetchData();
+    }, [universo]);
     
     return (
     <>
