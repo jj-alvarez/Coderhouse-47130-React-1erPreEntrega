@@ -35,18 +35,24 @@ const ItemDetail = () => {
     }, [id]);
 
     const agregarACarrito = (count) => {
-        const libroEnCarrito = carrito.find(item => item.id === book.id);
-
-        if (libroEnCarrito) {
-            const updatedCarrito = carrito.map(item =>
-                item.id === book.id ? { ...item, cantidad: item.cantidad + count } : item
-            );
-            setCarrito(updatedCarrito);
+        if (count > 0 && count <= book.stock) {
+            const libroEnCarrito = carrito.find((item) => item.id === book.id);
+    
+            if (libroEnCarrito) {
+                const updatedCarrito = carrito.map((item) =>
+                    item.id === book.id ? { ...item, cantidad: item.cantidad + count } : item
+                );
+                setCarrito(updatedCarrito);
+            } else {
+                setCarrito([...carrito, { ...book, cantidad: count }]);
+            }
         } else {
-            setCarrito([...carrito, { ...book, cantidad: count }]);
+            alert("La cantidad seleccionada supera el stock disponible.");
         }
     };
 
+    console.log(carrito);
+    
     return (
         <>
             <div className='sitio'>
@@ -63,12 +69,10 @@ const ItemDetail = () => {
                                 <p className='precioItem'>Precio: ${book.precio}</p>
                                 <article>{book.info}</article>
                             </div>
-                            <ItemCount stock={book.stock} onAdd={agregarACarrito} />
+                            <ItemCount stock={book ? book.stock : 0} onAdd={agregarACarrito} />
                         </div>
                     )}
                 </div>
-
-                
 
                 <FooterArea />
             </div>

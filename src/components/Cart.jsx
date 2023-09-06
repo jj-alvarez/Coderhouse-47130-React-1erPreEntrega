@@ -16,17 +16,31 @@ const Cart = () => {
     const { carrito, setCarrito } = useContext(CartContext);
 
     const restarCantidad = (libroId) => {
-        const updatedCarrito = carrito.map(item =>
-            item.id === libroId ? { ...item, cantidad: item.cantidad - 1 } : item
-        );
-        setCarrito(updatedCarrito);
+        const libroEnCarrito = carrito.find((item) => item.id === libroId);
+        if (libroEnCarrito) {
+            if (libroEnCarrito.cantidad > 1) {
+                const updatedCarrito = carrito.map((item) =>
+                    item.id === libroId ? { ...item, cantidad: item.cantidad - 1 } : item
+                );
+                setCarrito(updatedCarrito);
+            } else {
+                console.log("La cantidad mínima permitida es 1.");
+            }
+        }
     };
 
     const sumarCantidad = (libroId) => {
-        const updatedCarrito = carrito.map(item =>
-            item.id === libroId ? { ...item, cantidad: item.cantidad + 1 } : item
-        );
-        setCarrito(updatedCarrito);
+        const libroEnCarrito = carrito.find((item) => item.id === libroId);
+        if (libroEnCarrito) {
+            if (libroEnCarrito.cantidad < libroEnCarrito.stock) {
+                const updatedCarrito = carrito.map((item) =>
+                    item.id === libroId ? { ...item, cantidad: item.cantidad + 1 } : item
+                );
+                setCarrito(updatedCarrito);
+            } else {
+                console.log("La cantidad seleccionada supera el stock disponible.");
+            }
+        }
     };
 
     const eliminarLibro = (libroId) => {
@@ -37,6 +51,8 @@ const Cart = () => {
     const calcularPrecioTotal = () => {
         return carrito.reduce((total, item) => total + item.precio * item.cantidad, 0);
     };
+
+    console.log(carrito);
 
     return (
         <>
