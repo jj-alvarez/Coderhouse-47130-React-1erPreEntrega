@@ -31,7 +31,7 @@ function App() {
                         <Route path="/ItemDetail/:id" element={<ItemDetail />} /> 
                         <Route path="/Checkout" element={<Checkout />} /> 
                         <Route path="/Cart" element={<Cart />} /> 
-                        <Route path="/Finalizar" element={<Finalizar />} /> 
+                        <Route path="/Finalizar" element={<Finalizar />} />
                     </Routes> 
                 </BrowserRouter>
             </CartContext.Provider> 
@@ -40,3 +40,6 @@ function App() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+
+//<Route path="/Finalizar/:pedidoId" element={<Finalizar />} />
+// <Route path="/Finalizar" element={<Finalizar />} />

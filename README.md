@@ -10,11 +10,12 @@ El objetivo era realizar una app de un e-commerce con ReactJS. En este caso, opt
 El sitio corresponde a un e-commerce de venta de libros de distintos generos y autores.
 
 
-## Entrega Final - xx/agosto/2023
+## Entrega Final - 07/septiembre/2023
 
 - Se continuo desarrollando la imagen y estetica del sitio.
 - Se agregaron los componentes /Cart y /Checkout.
 - Se trabajo en la mecanica y funcionamiento general de la app.
+- Se incorporo Firebase al proyecto.
 
 
 ## Pre entrega 02 - 20/agosto/2023
