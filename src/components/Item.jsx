@@ -1,10 +1,5 @@
 import React from 'react';
-import { useState } from 'react'
-import { useRef } from 'react'
-import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
-//import librosData from './libros.json';
-
 import "./Item.css"
 
 const Item = ({ libros }) => {

@@ -37,7 +37,6 @@ gris oscuro rgba(34,36,37,255);
     text-align: center;
 }
 
-
 .cart-area{
     height: auto;
     width: 70%;
@@ -47,7 +46,6 @@ gris oscuro rgba(34,36,37,255);
     margin: 1em;
     color: rgba(34,36,37,255);
 }
-
 
 .cart-table {
     width: 100%;
@@ -81,7 +79,6 @@ gris oscuro rgba(34,36,37,255);
     justify-content: center;
 }
 
-
 .btn-volver2a {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -95,6 +92,7 @@ gris oscuro rgba(34,36,37,255);
     text-decoration: none;
     margin-top: 10px;
 }
+
 .btn-avanzarCompra1 {
     border-radius: 8px;
     border: 1px solid transparent;

@@ -1,7 +1,4 @@
 import React from 'react';
-import { useState } from 'react'
-import { useRef } from 'react'
-import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { CartContext } from '../context/CartContext';
 import { useContext } from 'react';
@@ -10,6 +7,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import "./CartWidget.css"
 
 const CartWidget = () => {
+    
     const { carrito } = useContext(CartContext); 
 
     const totalItems = carrito.reduce((total, item) => total + item.cantidad, 0);

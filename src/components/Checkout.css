@@ -37,7 +37,6 @@ gris oscuro rgba(34,36,37,255);
     text-align: center;
 }
 
-
 .checkout-area{
     width: 40%;
     background-color: rgba(235,235,235,255);
@@ -75,7 +74,6 @@ gris oscuro rgba(34,36,37,255);
     justify-content: center;
 }
 
-
 .btn-volver2 {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -102,7 +100,6 @@ gris oscuro rgba(34,36,37,255);
     text-decoration: none;
     margin-top: 10px;
 }
-
 
 .btn-volver3 {
     border-radius: 8px;
@@ -132,7 +129,6 @@ gris oscuro rgba(34,36,37,255);
     margin-top: 10px;
 }
 
-
 .btn-volver333 {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -146,7 +142,6 @@ gris oscuro rgba(34,36,37,255);
     text-decoration: none;
     margin-top: 10px;
 }
-
 
 .btn-avanzarCompra {
     border-radius: 8px;

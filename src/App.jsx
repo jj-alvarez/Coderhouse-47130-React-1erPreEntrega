@@ -40,6 +40,3 @@ function App() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-
-//<Route path="/Finalizar/:pedidoId" element={<Finalizar />} />
-// <Route path="/Finalizar" element={<Finalizar />} />

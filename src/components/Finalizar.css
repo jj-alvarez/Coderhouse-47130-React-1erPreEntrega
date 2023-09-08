@@ -37,7 +37,6 @@ gris oscuro rgba(34,36,37,255);
     text-align: center;
 }
 
-
 .botones-footer{
     display: flex;
     flex-direction: row;
@@ -45,7 +44,6 @@ gris oscuro rgba(34,36,37,255);
     height: auto;
     justify-content: space-around;
 }
-
 
 .btn-volver2 {
     border-radius: 8px;
@@ -65,7 +63,6 @@ gris oscuro rgba(34,36,37,255);
     text-decoration: none;
     color: rgba(235,235,235,255);
 }
-
 
 .btn-avanzarCompra {
     border-radius: 8px;

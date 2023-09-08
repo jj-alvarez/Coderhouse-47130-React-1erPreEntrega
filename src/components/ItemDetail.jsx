@@ -1,17 +1,14 @@
 import React, { useContext } from 'react';
 import { useState } from 'react'
-import { useRef } from 'react'
 import { useEffect} from 'react'
-import {Link} from 'react-router-dom'
 import { useParams } from 'react-router-dom';
 import { CartContext } from '../context/CartContext';
-
 import "./ItemDetail.css"
 import "./ItemCount.css"
 import '../App.css'
 import "./MainLogo.css";
 import ItemCount from './ItemCount';
-//import librosData from './libros.json';
+
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '../firebase/client';
 import HeaderArea from './headerArea';

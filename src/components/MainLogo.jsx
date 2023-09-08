@@ -1,9 +1,5 @@
 import React from 'react';
-import { useState } from 'react'
-import { useRef } from 'react'
-import { useEffect} from 'react'
 import {Link} from 'react-router-dom'
-
 import logoImage from '../assets/img/main-logo-002.png';
 import "./MainLogo.css";
 
